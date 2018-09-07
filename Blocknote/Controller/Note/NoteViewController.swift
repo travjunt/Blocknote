@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import RealmSwift
+import Blockstack
 
-class ViewController: UIViewController {
+class NoteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+    }
+    
 
 }
 

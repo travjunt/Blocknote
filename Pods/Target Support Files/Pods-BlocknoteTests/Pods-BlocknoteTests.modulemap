@@ -1,0 +1,6 @@
+framework module Pods_BlocknoteTests {
+  umbrella header "Pods-BlocknoteTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
