@@ -9,6 +9,7 @@
 import UIKit
 import RealmSwift
 import Blockstack
+import Spring 
 
 class NoteViewController: UIViewController {
 

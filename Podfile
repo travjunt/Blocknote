@@ -6,7 +6,7 @@ target 'Blocknote' do
   use_frameworks!
 pod 'Blockstack'
 pod 'RealmSwift'
-
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
 
   # Pods for Blocknote
 
