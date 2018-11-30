@@ -18,6 +18,7 @@
 		1F87976D2141AAC9004BEA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F87976B2141AAC9004BEA1D /* LaunchScreen.storyboard */; };
 		1F8797782141AAC9004BEA1D /* BlocknoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8797772141AAC9004BEA1D /* BlocknoteTests.swift */; };
 		1F8797832141AACA004BEA1D /* BlocknoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8797822141AACA004BEA1D /* BlocknoteUITests.swift */; };
+		1FF1EC8D21B1FD3D00840F69 /* BlockstackAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1EC8C21B1FD3D00840F69 /* BlockstackAuthViewController.swift */; };
 		815E9F5442F04604594853B7 /* Pods_BlocknoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F503D83B4838D61781CC12B /* Pods_BlocknoteTests.framework */; };
 		C02436C3FAEAD0007B81C6F4 /* Pods_BlocknoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D08CD3BC156C32A6FD32E06 /* Pods_BlocknoteUITests.framework */; };
 		C74025846992B039BC75BA5D /* Pods_Blocknote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E77D9754FB8B9C7D3C73059 /* Pods_Blocknote.framework */; };
@@ -60,6 +61,7 @@
 		1F87977E2141AACA004BEA1D /* BlocknoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocknoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8797822141AACA004BEA1D /* BlocknoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocknoteUITests.swift; sourceTree = "<group>"; };
 		1F8797842141AACA004BEA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF1EC8C21B1FD3D00840F69 /* BlockstackAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockstackAuthViewController.swift; sourceTree = "<group>"; };
 		2E77D9754FB8B9C7D3C73059 /* Pods_Blocknote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blocknote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F33B7DB043AE765B15BD66A /* Pods-BlocknoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlocknoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlocknoteTests/Pods-BlocknoteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78EAFB2103D640D3D2330383 /* Pods-BlocknoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlocknoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlocknoteUITests/Pods-BlocknoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		1F603A822141AD6F00AE293A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1FF1EC8C21B1FD3D00840F69 /* BlockstackAuthViewController.swift */,
 				1F603A872141AE7600AE293A /* Note */,
 			);
 			path = Controller;
@@ -432,6 +435,7 @@
 				1F603A842141ADBE00AE293A /* Blockstack.swift in Sources */,
 				1F603A892141AE8A00AE293A /* AddNoteViewController.swift in Sources */,
 				1F603A862141AE4600AE293A /* Realm.swift in Sources */,
+				1FF1EC8D21B1FD3D00840F69 /* BlockstackAuthViewController.swift in Sources */,
 				1F603A8B2141AEBD00AE293A /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

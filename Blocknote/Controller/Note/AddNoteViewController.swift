@@ -22,10 +22,7 @@ class AddNoteViewController: UIViewController {
     }
     
     func createNote() {
-        // Present *NoteViewController.swift*,
-        // Create an entry in gaia/realm for the note to be stored
-        // Present keyboard
-        // Trigger animation
+
         
     }
 }
