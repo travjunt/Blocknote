@@ -132,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				1FF1EC8C21B1FD3D00840F69 /* BlockstackAuthViewController.swift */,
-				1F603A872141AE7600AE293A /* Note */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				1F603A802141AD5A00AE293A /* Model */,
+				1F603A872141AE7600AE293A /* Note */,
 				1F603A822141AD6F00AE293A /* Controller */,
 				1F603A812141AD6800AE293A /* View */,
 				1F8797662141AAC8004BEA1D /* Main.storyboard */,
